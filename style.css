@@ -17,3 +17,44 @@
     border:none;
     padding:15px;
 }
+.banner
+{
+    background-image:url('/assets/hero-bg.png');
+    padding:120px;
+    
+}
+.child{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap:20px;
+}
+.banner h2 
+{
+   font-size:60px;
+}
+#first{
+    color:white;
+}
+#second
+{
+    color:#30B868;
+    margin-top:2px;
+}
+#para
+{
+    color:white;
+}
+.btn-div button{
+    padding:15px;
+    color:white;
+}
+#first-btn{
+    background-color:#30B868;
+    border:none;
+}
+#second-btn{
+    border:1px solid white;
+    background:transparent;
+}
