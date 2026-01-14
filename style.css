@@ -1,3 +1,4 @@
+
 .nav{
     display:flex;
     justify-content:space-between;
@@ -20,7 +21,7 @@
 .banner
 {
     background-image:url('/assets/hero-bg.png');
-    padding:120px;
+    padding: 120px;
     
 }
 .child{
@@ -57,4 +58,45 @@
 #second-btn{
     border:1px solid white;
     background:transparent;
+}
+.container img{
+    background-color: #F95555;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    padding:20px;
+    margin-top:5px;
+;
+}
+.container{
+    display:flex;
+   
+    padding:10px;
+    gap:10px;
+}
+.box{
+    
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding:0px;
+    text-align: center;
+ box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+;
+}
+.brain-part
+{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-top:40px;
+}
+#brain{
+    width:500px;
+}
+.left-div{
+    width:45%;
+}
+.right-div{
+    width:45%;
 }
